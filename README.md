@@ -1,1 +1,1 @@
-# -k014-ohmyzsh-custom
+#k014-ohmyzsh-custom
