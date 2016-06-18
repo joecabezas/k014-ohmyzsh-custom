@@ -1,5 +1,9 @@
 #k014-ohmyzsh-custom
 
+## Requirements
+
+* oh-my-zsh [Link to project](https://github.com/robbyrussell/oh-my-zsh)
+
 ## Installation
 
 ```
