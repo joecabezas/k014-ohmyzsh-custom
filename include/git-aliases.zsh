@@ -1,0 +1,16 @@
+alias d='git diff --word-diff $@'
+alias s='git status -sb'
+alias b='git branch -avv'
+alias c='git commit -v $@'
+alias co='git checkout'
+alias a='git add $@'
+alias ai='git add -i'
+alias ac='git add .;c $@'
+alias si='git stash --keep-index; git stash drop; git stash'
+
+alias lg='git log --color --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit'
+alias lga='lg --all'
+alias lgb='lg --all --simplify-by-decoration'
+
+alias pr='git pull --rebase'
+alias fa='git fetch --all'
