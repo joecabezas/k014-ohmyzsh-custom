@@ -1,6 +1,6 @@
 #!/usr/bin/zsh
 
-BASE_DIR="$(dirname "$(readlink "$0")")"
+BASE_DIR=${0:A:h}
 INCLUDE_FOLDER="$BASE_DIR/include"
 
 #Load all .zsh scripts in the include folder
